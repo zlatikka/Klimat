@@ -1,0 +1,52 @@
+/*  Mājas lapas dizains. Оформление сайта:background-color- цвет фона, font- шрифт... */
+body {
+    background-color:rgb(181, 249, 129);
+    font-family: "Verdana";
+    font-size: 13px;
+   }
+h1 {
+    color:darkmagenta;
+    font-size:18px;
+   }
+h2 {
+    font-size: 16px;
+     color: yellow
+   }
+p {
+  color: black;
+  text-align: left;
+}
+/* Dizains. Оформление изображений, рамки 
+https://www.w3schools.com/cssref/sel_class.asp */
+/* Dizains. Цвета рамок 
+https://www.w3schools.com/css/css_border.asp */
+/*  Mājas lapas dizains. Оформление изображений, округление изображений 
+https://www.w3schools.com/css/css3_images.asp */
+
+.dotted {
+  border-style: dotted;
+  border-color: orange;
+  border-radius: 50%;
+  }
+  
+.dashed {
+  border-style: dashed;
+  border-color: green;
+  border-radius: 12px;
+  }
+
+  /*  Mājas lapas dizains. Оформление изображений, рамки 
+https://www.w3schools.com/csSref/sel_id.asp */
+
+#solid {
+  border: 6px;
+  border-style: solid;
+  border-color: rgb(9, 153, 236); 
+  color:brown;
+  }
+#ridge {
+  border: 6px;
+  border-style: ridge;
+  border-color: rgb(238, 11, 87); 
+  }
+
